@@ -1,0 +1,36 @@
+.nav {
+    max-width: 1024px;
+    display: flex;
+    margin: auto;
+    height: 88px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* position: fixed; */
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.fixed_links {
+    padding-right: 20px;
+}
+
+.link {
+    margin-left: 12px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.fixed_links > a:last-child {
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 999px;
+    color: white;
+    background-color: black;
+}

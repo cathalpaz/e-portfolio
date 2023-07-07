@@ -1,11 +1,24 @@
+@keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
 .home_page {
     max-width: 1024px;
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
-    height: 100vh;
+    padding-top: 17rem;
+    /* padding-top: 88px; */
+    max-height: 100vh;
     overflow-y: auto;
+    animation: slideIn 0.5s ease-in-out;
 }
 
 .home_page  * {
@@ -49,7 +62,7 @@
 }
 
 .home_page_cursor {
-    margin-top: 10rem;
+    margin-top: 12rem;
     align-self: center;
     font-size: 25px;
 }

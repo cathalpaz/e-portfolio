@@ -16,6 +16,7 @@
     flex-direction: column;
     padding-top: 17rem;
     /* padding-top: 88px; */
+    /* height: 90vh; */
     max-height: 100vh;
     overflow-y: auto;
     animation: slideIn 0.5s ease-in-out;

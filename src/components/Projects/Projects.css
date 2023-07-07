@@ -1,0 +1,30 @@
+.projects_container {
+    max-width: 1024px;
+    margin: auto;
+    /* padding-top: 1rem; */
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects_display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 5rem;
+    width: 450px;
+}
+
+.project_single {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.project_single > img {
+    width: 450px;
+    height: 234px;
+}

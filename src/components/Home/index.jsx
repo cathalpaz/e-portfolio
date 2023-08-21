@@ -18,7 +18,6 @@ function Home() {
           <a href='google.com'> <DescriptionIcon /> </a>
         </div>
         <a className='home_page_cursor' href='#about'> i </a>
-
       </div>
     </section>
   )
